@@ -1,0 +1,37 @@
+.img{ 
+    height: 500px;
+    width: auto;
+    display:flex;
+    display: inline-block;
+    justify-content:space-evenly;
+    margin: 10px;
+}
+.logo{
+    height: 150px;
+    width: 20em;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    display:inline block;
+    align-items: center;
+ }
+ .img-one{
+    height: 500px;
+    width: auto;    
+    margin: auto;  
+ }
+ .img-two{
+    height: 500px;
+    width: auto;
+    margin: auto;
+
+ }
+ .get{
+    display: flex;
+    display: inline-block;
+
+ }
+ .img-b{
+    height:700px;
+ }
+ 
