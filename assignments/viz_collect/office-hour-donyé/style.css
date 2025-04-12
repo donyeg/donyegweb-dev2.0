@@ -15,16 +15,18 @@ body {
 } */
 
 .wrapper {
-    width: 50%;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: block;
+    gap: 0.5em;
+    text-align: center;
     font-family: "pf-videotext", sans-serif;
     font-weight: 400;
-    font-style: normal;    
+    font-style: normal; 
 }
 
-bio{
+.bio{
     display:block;
-    justify-content: center;
+    justify-content:right;
 }
 
 /* CATEGORIES PAGE */
@@ -47,8 +49,11 @@ bio{
 }
 
 /*SHORT STORIES PAGE */
-.link-container{ 
+.short{ 
     display:flex;
     flex-direction: column;
     align-items: center;
+    font-family: "pf-videotext", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
