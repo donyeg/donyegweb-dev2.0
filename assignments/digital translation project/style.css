@@ -1,8 +1,9 @@
+  /*HOME*/
 .img{ 
     height: 500px;
     width: auto;
     display:flex;
-    display: inline-block;
+    display: row;
     justify-content:space-evenly;
     margin: 10px;
 }
@@ -15,23 +16,121 @@
     display:inline block;
     align-items: center;
  }
- .img-one{
-    height: 500px;
-    width: auto;    
-    margin: auto;  
- }
- .img-two{
-    height: 500px;
-    width: auto;
-    margin: auto;
+.message{
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   margin: 10%;
+   font-family: "casablanca-urw", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   color:rgba(255, 0, 0, 0.462);
+}
 
- }
- .get{
-    display: flex;
-    display: inline-block;
 
- }
- .img-b{
-    height:700px;
+  /*MENU*/
+ .dropdown {
+   position: relative;
+   display: inline-block;
  }
  
+ .dropdown-button {
+   background-color: #f9f9f9;
+   color: black;
+   padding: 12px 16px;
+   border: none;
+   cursor: pointer;
+ }
+
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   font-family: "proxima-nova", sans-serif;
+   font-weight: 400;
+   font-style: normal; 
+ }
+ 
+ .dropdown-content a:hover {
+   background-color: #ddd;
+ }
+ 
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+ 
+ .dropdown:hover .dropdown-button {
+   background-color: #ddd;
+ }
+   /*Dusk 2 Dawn*/
+   .head {
+      display: flex;
+      justify-content: flex-start;
+      font-family: "proxima-nova", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+
+.image-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 20px;
+   row-gap: 15px;
+   column-gap: 25px;
+   margin:5%;
+ }
+ 
+ .image-grid img {
+   width: 100%;
+   height: auto;
+ }
+   /*inDisposable*/
+   .heads{
+      display: flex;
+      justify-content: flex-start;
+      font-family: "proxima-nova", sans-serif;
+      font-weight: 400;
+      font-style: italic;  
+   }
+   .image-grids {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+      gap: 10px;
+      row-gap: 15px;
+      column-gap: 25px;
+      margin:5%;
+   }
+   .image-grids img {
+      width: 100%;
+      height: auto;
+    }
+      /*Personal*/
+      .big_head{
+         display: flex;
+         justify-content: flex-start;
+         font-family: "proxima-nova", sans-serif;
+         font-weight: 400;
+         font-style: italic;  
+      }
+      .image-grind {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+         gap: 10px;
+         row-gap: 15px;
+         column-gap: 25px;
+         margin:5%;
+      }
+      .image-grind img {
+         width: 100%;
+         height: auto;
+       }
